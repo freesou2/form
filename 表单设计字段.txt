@@ -1,0 +1,29 @@
+﻿表单设计机器
+  --表单标题  title
+  --容器样式名 className
+  --是否打开验证  validators
+  --是否只读，若是则表单下所有字段为只读  readonly
+  --内容大小 span
+  --表单字段  fields
+      --输入控件的id ctrlId
+      --输入控件的属性集合 ctrlAttr ctrlAttr:{max:200,min:100,step:5}
+      --是否隐藏该字段 hidden
+      --生成的label中的内容  label
+      --默认值  dfaultValue
+      --序号顺序  order
+      --换行  break
+      --提示文字  placeholder
+      --输入控件的样式	ctrlCssText
+      --空间前面标签的样式	labelCssText
+      --输入控件外层容器的宽度 width
+      --输入控件类型 type
+      --输入控件的输入值最大长度，仅针对文本框有效	  maxlength
+      --输入控件的输入值最小长度	minlength
+      --输入控件是否只读，仅针对文本框和文本区域有效	readonly
+      --输入控件是否禁用，效果同html元素的disabled属性	disabled
+      --输入控件是否必填，用value是否为空字符串判断	required
+      --校验正则表达式 pattern
+      --正则校验失败后的错误提示	patternErrorMsg
+      --鼠标移到输入控件上时显示的提示内容，也是当字段输入不合法时的提示内容	title
+      --输入控件的可选项目列表(如radio,checkbox,员工列表之类的) datalist
+      --是否多选，仅针对select和checkbox有效	multiple
